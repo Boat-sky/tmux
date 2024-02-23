@@ -29,7 +29,8 @@ tmux kill-session -t test
 ```
 ### 2. Window
 * สร้าง window ใหม่กด `Ctrl B` แล้วกด `C`
-* เลื่อนไป window อื่นที่มีอยู่กด `Ctrl B` แล้วกด `N`
+* เลื่อนไป window ถัดไปด้านขวากด `Ctrl B` แล้วกด `N`
+* ไป window ที่ต้องการกด  `Ctrl B` แล้วกดหมายเลข index ของ window ที่ต้องการไป
 * เปลี่ยนชื่อ window ปัจจุบัน กด `Ctrl B` แล้วกด `,`
 * ดูรายการ window ในแต่ละ sessoin แล้วเลือกว่าจะเข้าไปใน pane ไหน กด  `Ctrl B` แล้วกด `W` ในนี้ยังสามารถเลือกแล้วกด `X` เพื่อลบ screen หรือ window ได้
 * ลบ window ปัจจุบัน กด `Ctrl B` แล้วกด `&`
